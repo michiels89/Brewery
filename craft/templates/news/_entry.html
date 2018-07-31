@@ -1,24 +1,28 @@
-{#
- # News entry template
- # -------------------
- #
- # This template gets loaded whenever a News entry’s URL is
- # requested. That’s because the News section’s Template setting is
- # set to “news/_entry”, the path to this template.
- #
- # When this template is loaded, it will already have an ‘entry’
- # variable, set to the requested News entry.
- #
- # See this page for more details on how Craft routes requests:
- # http://craftcms.com/docs/routing
- #}
-
 {% extends "_layout" %}
 
-{% block content %}
-	<article>
-		<h1>{{ entry.title }}</h1>
-		<p>Posted on {{ entry.postDate.format('F d, Y') }}</p>
-		{{ entry.body }}
-	</article>
-{% endblock %}
+{% block main %}
+
+<ul class="breadcrumbs">
+    <li><a href="/">Home</a></li>
+    <li><a href="/news">News</a></li>
+    <li> {{ entry.title }}</li>
+</ul>
+<div class="full-bleed-header" style="background-size: 100%; height: 200px; background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url(https://thepintpundits.files.wordpress.com/2013/02/dark-horse-tres-blueberry-stout-1.jpg); background-repeat: no-repeat, repeat;">
+    <div class="page-title text-center">
+        <h2 class="logo"><span class="scripty">Brew News</h2>
+        <p class="tagline reverse">All the news that's fit to drink.</p>
+    </div>
+</div>
+<div class="row">
+    <div class="large-12 small-12 columns">
+        <div class="intro large-12 small-12 columns text-center">
+            <p>{{ entry.introduction }}</p>
+        </div>
+
+        <h1> {{ entry.title }} </h1>
+        <p class="byline"> {{ entry.author.fullName }}</p>
+        {{ entry.body }}
+    </div>
+</div>
+
+{%  endblock %}
