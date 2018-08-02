@@ -18,8 +18,9 @@
             {{ entry.introduction }}
         </div>
         {{ entry.pageCopy}}
-
-        <p><a href="../recipes/recipe-detail.html" class="button primary small radius">Brew <i>Unabridged Stout</i> at Home</a></p>
+        {% if entry.brewRecipe.first() %}
+        <p><a href="{{ entry.brewRecipe.first().url}}" class="button primary small radius">Brew <i> {{ entry.title }}</i> at Home</a></p>
+        {% endif %}
     </div>
 </div>
 

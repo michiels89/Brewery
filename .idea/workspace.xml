@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23d9e9cf-8697-4e10-b689-ba96380866b3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/craft/templates/about/_entry.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/craft/templates/brews/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/craft/templates/brews/styles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/craft/templates/recipes/_entry.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/craft/templates/recipes/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/craft/templates/styles/category.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/craft/app/Info.php" beforeDir="false" afterPath="$PROJECT_DIR$/craft/app/Info.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/craft/app/etc/requirements/Requirements.php" beforeDir="false" afterPath="$PROJECT_DIR$/craft/app/etc/requirements/Requirements.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/craft/templates/_layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/craft/templates/_layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/craft/templates/news/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/craft/templates/news/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/craft/templates/brews/_entry.html" beforeDir="false" afterPath="$PROJECT_DIR$/craft/templates/brews/_entry.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/craft/templates/brews/styles.html" beforeDir="false" afterPath="$PROJECT_DIR$/craft/templates/brews/styles.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -50,11 +41,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="_entry.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/craft/templates/brews/_entry.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/craft/templates/recipes/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
+            <state relative-caret-position="300">
+              <caret line="20" column="79" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -71,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="styles.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/craft/templates/brews/styles.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="450">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -133,7 +136,6 @@
         <option value="/Applications/MAMP/conf/php7.1.12/php.ini" />
         <option value="/Applications/MAMP/conf/php5.4.4/php.ini" />
         <option value="$PROJECT_DIR$/craft/templates/index.html" />
-        <option value="$PROJECT_DIR$/craft/templates/brews/_entry.html" />
         <option value="$PROJECT_DIR$/craft/templates/news/_entry.html" />
         <option value="$PROJECT_DIR$/craft/templates/news/index.html" />
         <option value="$PROJECT_DIR$/craft/templates/about/_entry.html" />
@@ -143,6 +145,7 @@
         <option value="$PROJECT_DIR$/craft/templates/brews/index.html" />
         <option value="$PROJECT_DIR$/craft/templates/recipes/index.html" />
         <option value="$PROJECT_DIR$/craft/templates/brews/styles.html" />
+        <option value="$PROJECT_DIR$/craft/templates/brews/_entry.html" />
       </list>
     </option>
   </component>
@@ -186,23 +189,6 @@
             <path>
               <item name="Brewery" type="b2602c69:ProjectViewProjectNode" />
               <item name="Brewery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Brewery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Brewery" type="462c0819:PsiDirectoryNode" />
-              <item name="breweryTemplate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Brewery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Brewery" type="462c0819:PsiDirectoryNode" />
-              <item name="breweryTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="brews" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Brewery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Brewery" type="462c0819:PsiDirectoryNode" />
-              <item name="breweryTemplate" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Brewery" type="b2602c69:ProjectViewProjectNode" />
@@ -295,12 +281,12 @@
       <workItem from="1532526706451" duration="6759000" />
       <workItem from="1532602818576" duration="1553000" />
       <workItem from="1533022198318" duration="7906000" />
-      <workItem from="1533104461667" duration="18116000" />
+      <workItem from="1533104461667" duration="19425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37387000" />
+    <option name="totallyTimeSpent" value="38696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="715" y="184" width="2114" height="1354" extended-state="0" />
@@ -623,13 +609,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/craft/templates/brews/_entry.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="177" selection-start-line="8" selection-start-column="157" selection-end-line="8" selection-end-column="190" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/breweryTemplate/recipes/recipe-detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2083">
@@ -698,13 +677,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/craft/templates/recipes/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/craft/templates/.htaccess">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -725,10 +697,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/craft/templates/recipes/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="79" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/craft/templates/brews/styles.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="450">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/craft/templates/brews/_entry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

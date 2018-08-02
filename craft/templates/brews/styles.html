@@ -19,26 +19,12 @@
                 <th>Style</th>
                 <th>Description</th>
             </tr>
+            {% for style in craft.categories.group('beerStyles').limite(10) %}
             <tr>
-                <td><a href="">Stout</a></td>
-                <td>This is the description of the style. Very tasty but easy to make!</td>
+                <td><a href="{{ style.url }}">{{ style.title }}</a></td>
+                <td>{{ style.styleDescription }}</td>
             </tr>
-            <tr>
-                <td>Pilsner</td>
-                <td>This is the description of the style. Very tasty but easy to make!</td>
-            </tr>
-            <tr>
-                <td>Pilsner</td>
-                <td>This is the description of the style. Very tasty but easy to make!</td>
-            </tr>
-            <tr>
-                <td>Pilsner</td>
-                <td>This is the description of the style. Very tasty but easy to make!</td>
-            </tr>
-            <tr>
-                <td>Pilsner</td>
-                <td>This is the description of the style. Very tasty but easy to make!</td>
-            </tr>
+            {% endfor %}
         </table>
     </div>
 </div>
